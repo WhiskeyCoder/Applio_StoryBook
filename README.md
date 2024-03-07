@@ -1,6 +1,6 @@
-# Audio Storytelling Project with Apollo and PyDub
+# Audio Storytelling Project with Applio and PyDub
 
-This project leverages the power of the Apollo text-to-speech (TTS) engine, with RVC models and the PyDub library to create audio stories by combining character-specific voiceovers. The script processes a given screenplay, matches lines to characters, and generates audio segments using distinct voices for each character. Finally, it combines these segments into a single audio file for playback.
+This project leverages the power of the Applio text-to-speech (TTS) engine, with RVC models and the PyDub library to create audio stories by combining character-specific voiceovers. The script processes a given screenplay, matches lines to characters, and generates audio segments using distinct voices for each character. Finally, it combines these segments into a single audio file for playback.
 
 ## Project Overview
 
@@ -17,7 +17,7 @@ The core of this project is a Python script that reads a screenplay from a text 
 Before running the project, ensure you have Python installed on your machine and the following dependencies:
 - [`Applio`](https://github.com/IAHispano/Applio/releases)
 - `pydub`
-- `gradio_client` (Custom client for Apollo TTS engine)
+- `gradio_client` (Custom client for Applio TTS engine)
 
 You can install the necessary libraries using pip:
 
