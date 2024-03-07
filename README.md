@@ -2,6 +2,10 @@
 
 This project leverages the power of the Applio text-to-speech (TTS) engine, with RVC models and the PyDub library to create audio stories by combining character-specific voiceovers. The script processes a given screenplay, matches lines to characters, and generates audio segments using distinct voices for each character. Finally, it combines these segments into a single audio file for playback.
 
+I used Kim Possible as an example, due to it being my favourite tv show as a kid. The sample script.txt is uploaded as well as an audio file to hear it. I warn you, it is not amazing, due and some configurations need to be fixed within my settings on Applio. Here is the sample audio file 
+
+[Kim Possible Sample Audio](https://github.com/WhiskeyCoder/Applio_StoryTeller/blob/main/KimPossible_test_script.mp3)
+
 ## Project Overview
 
 The core of this project is a Python script that reads a screenplay from a text file, where each line is attributed to a character or a narrator. For each line, the script uses predefined TTS voices to generate audio segments, ensuring that each character's dialogue is spoken in a unique voice. These segments are then concatenated in order, producing a coherent audio story.
